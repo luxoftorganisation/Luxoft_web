@@ -1,84 +1,86 @@
+
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f7f2fb;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f0ff;
   color: #333;
+  margin: 0;
 }
-
-header {
-  background: #5e2a84;
+.hero {
+  background-color: #6a0dad;
   color: white;
+  padding: 2em;
   text-align: center;
-  padding: 20px;
 }
-
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .logo {
-  width: 100px;
-  display: block;
-  margin: 0 auto 10px;
+  margin-bottom: 1em;
 }
-
 .slogan {
+  font-size: 1.2em;
   font-style: italic;
 }
-
-.hero {
-  text-align: center;
-  padding: 30px;
-}
-
-.hero img {
-  width: 90%;
-  max-width: 600px;
-  border-radius: 10px;
-}
-
-.apply-button {
-  display: inline-block;
+.hero-text h2 {
   margin-top: 20px;
-  padding: 12px 24px;
-  background: #5e2a84;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
+  font-size: 2em;
 }
-
+.hero-text p {
+  font-size: 1.2em;
+}
+.info {
+  padding: 2em;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding: 10px 0;
+  font-size: 1.1em;
+}
+.banner-img {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 1.5em;
+  border-radius: 12px;
+}
+.application {
+  padding: 2em;
+  background: #ece0f8;
+}
 form {
-  width: 90%;
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 20px;
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #ccc;
+  max-width: 600px;
+  margin: auto;
 }
-
-form label {
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+label {
+  font-weight: bold;
+}
+input, button {
   display: block;
-  margin-top: 10px;
-}
-
-form input {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-}
-
-button {
-  margin-top: 15px;
-  width: 100%;
+  margin-top: 6px;
   padding: 12px;
-  background: #5e2a84;
+  width: 100%;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+button {
+  background-color: #6a0dad;
   color: white;
   border: none;
-  border-radius: 5px;
-}
-
-footer {
-  background: #5e2a84;
-  color: white;
-  text-align: center;
-  padding: 15px;
+  font-size: 1.1em;
+  cursor: pointer;
   margin-top: 20px;
 }
